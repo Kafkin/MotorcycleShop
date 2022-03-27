@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
 *,*::before,*::after{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body{
@@ -26,4 +30,98 @@ section video{
   left: 0;
   top: 0;
   transform: translate(0%, -15%);
+}
+
+section::after{
+  content: '';
+  display: block;
+  width: 100%; height: 100%;
+  background-image: url('../img,icon,video/blur.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 17%;
+  transform: translateY();
+}
+
+section .container{
+  width: 100%; height: 100vh;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+.container .navBar{
+  width: 100%; height: 3vw;
+  /* border: 0.15vw solid red; */
+  margin-top: 1.7vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 8vw;
+  opacity: 87%;
+  list-style: none;
+}
+
+.navBar > li{
+  width: max-content; height: max-content;
+  align-items: center;
+  font-size: 0.7vw;
+  display: flex;
+}
+
+.navBar > li.logo{
+  flex-direction: column;
+}
+
+.navBar > li.logo{
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.9vw;
+}
+
+.navBar > li.logo img{
+  margin-bottom: 0.7vw;
+  transform: translate(-10%);
+  width: 2.5vw; height: 2.5vw;
+}
+
+.navBar > li.navigation > h1{
+  color: gray;
+  margin-left: 2.7vw;
+  font-size: 1.1vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navBar > li.navigation > h1.active{
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+}
+
+.container .pairs{
+  width: 100%; height: 3vw;
+  /* border: 0.15vw solid red; */
+  margin-bottom: 1.7vw;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0vw 8vw;
+  opacity: 87%;
+  list-style: none;
+}
+
+.container .pairs img{
+  width: 2.3vw; height: 2.3vw;
+  cursor: pointer;
+}
+
+.container .pairs img:hover{
+  transition: 0.25s;
+  filter: drop-shadow(0 0 3px #fff);
 }
