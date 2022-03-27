@@ -1,6 +1,9 @@
 <template>
   
-  <h1>empty</h1>
+  <section>
+
+    <video src="./assets/img,icon,video/smoke.mp4" autoplay  muted ref="BgSmokeVideo"></video>
+  </section>
 
 </template>
 
@@ -9,7 +12,7 @@ export default {
   name: 'App',
   data(){
     return{
-
+      
     }
   },
 
@@ -18,7 +21,11 @@ export default {
   },
   
   components: {
-    
+
+  },
+
+  computed(){
+    this.$refs.BgSmokeVideo.playbackRate = 1
   }
 }
 </script>
