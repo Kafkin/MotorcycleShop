@@ -102,3 +102,63 @@
   font-size: 1.5vw;
   font-weight: 300;
 }
+
+.containerCard.front > .info .buy{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  margin-top: 1.3vw;
+  z-index: 1000;
+}
+
+.containerCard.front > .info .buy .count{
+  width: 3vw; height: max-content;
+  margin-left: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerCard.front > .info .buy .count > h2{
+  font-size: 1.3vw;
+  border-bottom: 0.11vw solid #fff;
+}
+
+input[type="range"]{
+  background-color: transparent;
+}
+
+input[type="range"]::-moz-range-progress{
+	background: gray;
+  border: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-track{
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btnBuy{
+  border: none;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 0.5vw 0.7vw;
+  border-radius: 320rem;
+  cursor: pointer;
+  color: gray;
+  background: transparent;
+  transition: 0.25s;
+  border: 0.11vw solid gray;
+}
+
+.btnBuy:hover{
+  color: #fff;
+  border: 0.11vw solid #fff;
+}

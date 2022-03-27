@@ -16,6 +16,13 @@
         <h2>{{ arrayItem.price }}</h2>
         <h3>{{ arrayItem.currency }}</h3>
       </div>
+      <div class="buy">
+        <input type="range" min="0" :max="arrayItem.countStock" v-model="count">
+        <div class="count">
+          <h2>{{ count }}</h2>
+        </div>
+        <button class="btnBuy" @click="Buy(arrayItem, count)">Купить</button>
+      </div>
     </div>
   </div>
   
@@ -25,12 +32,22 @@
 export default {
   data(){
     return{
-
+      count: 1
     }
   },
 
   methods:{
-    
+    Buy(arrayItem, count){
+      console.log('Начало: ', arrayItem, count)
+      arrayItem.countNow = count
+      // arrayItem.countNow = count
+      // fetch('http://localhost:3000/Store', {
+      //   method: 'POST',
+      //   // body: JSON.stringify(data),
+      //   body: data,
+      // })
+      this.$emit('buy', arrayItem)
+    }
   },
 
   props:{

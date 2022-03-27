@@ -1,17 +1,72 @@
 {
-  "Motorcycle": [{
-    "id": "none", "img": "#", "title": "#", "price": "#", "currency": "#"
+  "Motorcycle": [
+    {
+      "id": "none",
+      "img": "#",
+      "title": "#",
+      "price": "#",
+      "currency": "#"
+    },
+    {
+      "id": 0,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11
+    },
+    {
+      "id": 1,
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7
+    },
+    {
+      "id": 2,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5
+    },
+    {
+      "id": 3,
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8
+    },
+    {
+      "id": 4,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleFive",
+      "price": 983,
+      "currency": "$",
+      "countStock": 3
+    },
+    {
+      "id": "none",
+      "img": "#",
+      "title": "#",
+      "price": "#",
+      "currency": "#"
+    }
+  ],
+
+  "Pages": [{
+    "id": 0, "title": "Shopping cart"
   },{
-    "id": 0, "img": "MotorcycleOne.png", "title": "MotorcycleOne", "price": 1200, "currency": "$"
+    "id": 1, "title": "Gallery"
   },{
-    "id": 1, "img": "MotorcycleTwo.png", "title": "MotorcycleTwo", "price": 1200, "currency": "rub"
+    "id": 2, "title": "Store"
   },{
-    "id": 2, "img": "MotorcycleOne.png", "title": "MotorcycleThree", "price": 1200, "currency": "rub"
-  },{
-    "id": 3, "img": "MotorcycleTwo.png", "title": "MotorcycleFour", "price": 1200, "currency": "$"
-  },{
-    "id": 4, "img": "MotorcycleOne.png", "title": "MotorcycleFive", "price": 1200, "currency": "$"
-  },{
-    "id": "none", "img": "#", "title": "#", "price": "#", "currency": "#"
-  }]
+    "id": 3, "title": "Contact"
+  }],
+
+  "Store": [
+    
+  ]
 }

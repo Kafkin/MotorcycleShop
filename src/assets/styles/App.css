@@ -166,3 +166,46 @@ section .container{
 [v-cloak] {
   display: none;
 }
+
+.ShoppingCart{
+  width: 100%; height: 60%;
+  /* border: 0.11vw solid #fff; */
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ShoppingCart img{
+  width: 14vw; height: 9vw;
+  object-fit: cover;
+}
+
+.ShoppingCart ul{
+  width: 86%; height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.ShoppingCart ul li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content; height: max-content;
+}
+
+.ShoppingCart ul li .info-buy-card{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin-left: 1vw;
+}
+
+.ShoppingCart ul li .info-buy-card > h1{
+  color: gray;
+  margin-right: 0.7vw;
+}
+
