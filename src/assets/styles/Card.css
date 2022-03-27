@@ -1,0 +1,104 @@
+.emptyCard{
+  /* border: 1px solid red; */
+  width: 34vw; height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyCard .emptyCardImg{
+  /* border: 1px solid white; */
+  width: 24vw; height: 20vw;
+}
+
+.containerCard{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  transition: 0.25s;
+  /* border: 1px solid red; */
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.containerCard > .info{
+  display: none;
+}
+
+.containerCard > img{
+  object-position: center center;
+  width: 24vw; height: 20vw;
+  /* border: 1px solid white; */
+  object-fit: contain;
+  transition: 0.25s;
+  cursor: pointer;
+  opacity: 40%;
+  margin: 3vw;
+  padding: 0;
+}
+
+.containerCard > img:hover{
+  transform: scale(1.1);
+}
+
+.containerCard.front > img{
+  width: 34vw; height: 30vw;
+  opacity: 100%;
+}
+
+.containerCard.front > .info{
+  width: 100%; height: max-content;
+  display: block;
+  font-size: 1.3vw;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+.containerCard.front > .info .title{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.containerCard.front > .info .title h1{
+  color: gray;
+  margin-right: 1vw;
+  font-size: 1.9vw;
+  font-weight: 500;
+}
+
+.containerCard.front > .info .title h2{
+  font-size: 1.7vw;
+  font-weight: 300;
+}
+
+.containerCard.front > .info .price{
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.containerCard.front > .info .price h1{
+  color: gray;
+  margin-right: 1vw;
+  font-size: 1.9vw;
+  font-weight: 500;
+}
+
+.containerCard.front > .info .price h2{
+  font-size: 1.7vw;
+  font-weight: 300;
+}
+
+.containerCard.front > .info .price h3{
+  font-size: 1.5vw;
+  font-weight: 300;
+}

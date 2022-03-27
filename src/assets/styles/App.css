@@ -17,7 +17,7 @@ body{
 section{
   width: 100%; height: 100vh;
   position: relative;
-  background: #222;
+  background: #000;
   overflow: hidden;
 }
 
@@ -124,4 +124,45 @@ section .container{
 .container .pairs img:hover{
   transition: 0.25s;
   filter: drop-shadow(0 0 3px #fff);
+}
+
+.container .carousel{
+  width: 100%; height: 60%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* loader */
+#loader{
+  height:80px;
+  width:80px;
+  position:relative;
+}[l]{
+  position:absolute;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  animation:loader 1.6s linear infinite;
+}
+[a]{left:35px;}
+[b]{right:10px;top:10px;animation-delay:.2s}
+[c]{top:35px;right:0;animation-delay:.4s}
+[d]{right:10px;bottom:10px;animation-delay:.6s}
+[e]{left:35px;bottom:0;animation-delay:.8s}
+[f]{left:10px;bottom:10px;animation-delay:1s}
+[g]{top:35px;left:0;animation-delay:1.2s}
+[h]{left:10px;top:10px;animation-delay:1.4s}
+@keyframes loader{
+  0%{
+    background:none;
+  }
+  100%{
+    background:white;
+  }
+}
+
+[v-cloak] {
+  display: none;
 }

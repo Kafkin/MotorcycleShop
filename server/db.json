@@ -1,5 +1,17 @@
 {
-  "empty": [
-    { "empty": "empty" }
-  ]
+  "Motorcycle": [{
+    "id": "none", "img": "#", "title": "#", "price": "#", "currency": "#"
+  },{
+    "id": 0, "img": "MotorcycleOne.png", "title": "MotorcycleOne", "price": 1200, "currency": "$"
+  },{
+    "id": 1, "img": "MotorcycleTwo.png", "title": "MotorcycleTwo", "price": 1200, "currency": "rub"
+  },{
+    "id": 2, "img": "MotorcycleOne.png", "title": "MotorcycleThree", "price": 1200, "currency": "rub"
+  },{
+    "id": 3, "img": "MotorcycleTwo.png", "title": "MotorcycleFour", "price": 1200, "currency": "$"
+  },{
+    "id": 4, "img": "MotorcycleOne.png", "title": "MotorcycleFive", "price": 1200, "currency": "$"
+  },{
+    "id": "none", "img": "#", "title": "#", "price": "#", "currency": "#"
+  }]
 }
