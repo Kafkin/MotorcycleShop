@@ -8,7 +8,6 @@
       "currency": "#"
     },
     {
-      "id": 0,
       "img": "MotorcycleOne.png",
       "title": "MotorcycleOne",
       "price": 1279,
@@ -16,7 +15,6 @@
       "countStock": 11
     },
     {
-      "id": 1,
       "img": "MotorcycleTwo.png",
       "title": "MotorcycleTwo",
       "price": 38999,
@@ -24,7 +22,6 @@
       "countStock": 7
     },
     {
-      "id": 2,
       "img": "MotorcycleOne.png",
       "title": "MotorcycleThree",
       "price": 17328,
@@ -32,7 +29,6 @@
       "countStock": 5
     },
     {
-      "id": 3,
       "img": "MotorcycleTwo.png",
       "title": "MotorcycleFour",
       "price": 837,
@@ -40,7 +36,6 @@
       "countStock": 8
     },
     {
-      "id": 4,
       "img": "MotorcycleOne.png",
       "title": "MotorcycleFive",
       "price": 983,
@@ -55,18 +50,321 @@
       "currency": "#"
     }
   ],
-
-  "Pages": [{
-    "id": 0, "title": "Shopping cart"
-  },{
-    "id": 1, "title": "Gallery"
-  },{
-    "id": 2, "title": "Store"
-  },{
-    "id": 3, "title": "Contact"
-  }],
-
-  "Store": [
-    
+  "Pages": [
+    {
+      "id": 0,
+      "title": "Shopping cart"
+    },
+    {
+      "id": 1,
+      "title": "Gallery"
+    },
+    {
+      "id": 2,
+      "title": "Store"
+    },
+    {
+      "id": 3,
+      "title": "Contact"
+    }
+  ],
+  "store": [
+    {
+      "id": 1,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1
+    },
+    {
+      "id": 2,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1
+    },
+    {
+      "id": 3,
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1,
+      "id": 4
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1,
+      "id": 5
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleOne",
+      "price": 1279,
+      "currency": "$",
+      "countStock": 11,
+      "countNow": 1,
+      "id": 6
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 7
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 8
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 9
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleFive",
+      "price": 983,
+      "currency": "$",
+      "countStock": 3,
+      "countNow": 1,
+      "id": 10
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleFive",
+      "price": 983,
+      "currency": "$",
+      "countStock": 3,
+      "countNow": 1,
+      "id": 11
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleFive",
+      "price": 983,
+      "currency": "$",
+      "countStock": 3,
+      "countNow": 1,
+      "id": 12
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleFive",
+      "price": 983,
+      "currency": "$",
+      "countStock": 3,
+      "countNow": 1,
+      "id": 13
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 14
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 15
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 16
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 17
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 18
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 19
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 20
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleTwo",
+      "price": 38999,
+      "currency": "rub",
+      "countStock": 7,
+      "countNow": 1,
+      "id": 21
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 22
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 23
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 24
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 25
+    },
+    {
+      "img": "MotorcycleOne.png",
+      "title": "MotorcycleThree",
+      "price": 17328,
+      "currency": "rub",
+      "countStock": 5,
+      "countNow": 1,
+      "id": 26
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 27
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 28
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 29
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 30
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 31
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 32
+    },
+    {
+      "img": "MotorcycleTwo.png",
+      "title": "MotorcycleFour",
+      "price": 837,
+      "currency": "$",
+      "countStock": 8,
+      "countNow": 1,
+      "id": 33
+    }
   ]
 }

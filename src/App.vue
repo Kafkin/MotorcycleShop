@@ -69,6 +69,7 @@
 
 <script>
 import vCard from './components/v-card.vue'
+import helpers from './helpers.js'
 
 export default {
   name: 'App',
@@ -125,14 +126,18 @@ export default {
   },
 
   mounted(){
+    helpers.sayHi('ere')
+
     const getData = async (url) => {
       const response = await fetch(url)
       const data = response.json()
       return data
     }
 
-    getData('http://localhost:3000/Motorcycle').then((data) => {
+    setInterval(() => {
+      getData('http://localhost:3000/Motorcycle').then((data) => {
       this.arrayMotocycle = data
+      console.log(this.arrayMotocycle)
       this.isLoading = false
       console.log(this.arrayMotocycle);
     })
@@ -141,6 +146,10 @@ export default {
       this.pages = data
       console.log(this.pages);
     })
+
+    }, 3000)
+
+    
   }
 }
 </script>

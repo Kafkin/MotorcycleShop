@@ -40,13 +40,16 @@ export default {
     Buy(arrayItem, count){
       console.log('Начало: ', arrayItem, count)
       arrayItem.countNow = count
-      // arrayItem.countNow = count
-      // fetch('http://localhost:3000/Store', {
-      //   method: 'POST',
-      //   // body: JSON.stringify(data),
-      //   body: data,
-      // })
-      this.$emit('buy', arrayItem)
+      fetch('http://localhost:3000/store', {
+        method: 'POST',
+        // body: JSON.stringify(data),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(arrayItem),
+      })
+      // this.$emit('buy', arrayItem)
     }
   },
 
